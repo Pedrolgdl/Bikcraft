@@ -1,6 +1,5 @@
-
 if(window.SimpleSlide) {
-  
+
   new SimpleSlide({
     slide: "quote", // nome do atributo data-slide="nome"
     //nav: true, // se deve ou não mostrar a navegação
@@ -13,4 +12,9 @@ if(window.SimpleSlide) {
     time: 5000,
     nav: true
   });
+}
+
+if(window.SimpleAnime) {
+
+  new SimpleAnime();
 }
